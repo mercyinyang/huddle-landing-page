@@ -1,3 +1,51 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('images/bg-desktop.svg');
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.logo{
+    margin: 50px 70px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.container{
+    display: flex;
+
+}
+
+.image img{
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 650px;
+}
+
+.text{
+    padding: 30px 70px;
+    margin-right: 70px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+button{
+    width: 150px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border-style: none;
+    color: blueviolet;
+    cursor: pointer;
+}
+
 .attribution {
     font-size: 11px; text-align: center; 
     }
