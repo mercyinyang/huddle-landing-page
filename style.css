@@ -46,10 +46,18 @@ button{
     cursor: pointer;
 }
 
+.social-links{
+    margin-right: 70px;
+    float: right;
+}
+
 .attribution {
-    font-size: 11px; text-align: center; 
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 50px;
     }
 
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color:pink; 
+    text-decoration: none;
     }
