@@ -5,6 +5,8 @@ body{
     font-weight: 400;
     font-size: 14px;
     color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .logo{
@@ -17,18 +19,23 @@ body{
 
 .container{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
 
+.image {
+    max-width: 650px;
 }
 
 .image img{
     margin-top: 10px;
-    margin-left: 70px;
-    width: 650px;
+    width: 100%;
 }
 
 .text{
-    padding: 30px 70px;
-    margin-right: 70px;
+    max-width: 500px;
+    margin-left: 50px;
 }
 
 h1{
@@ -55,29 +62,26 @@ button{
     font-size: 14px; 
     text-align: center; 
     margin-top: 50px;
-    }
+}
 
 .attribution a {
     color:pink; 
     text-decoration: none;
-    }
+}
 
-@media (max-width: 872px){
+@media (max-width: 980px){
     .logo{
         margin: 30px 30px;
     }
 
     .container{
-        display: block;
-    }
-
-    .image img{
-        margin: 10px 70px;
+        flex-direction: column;
+        padding: 0 30px;
     }
 
     .text{
-        padding: 30px 100px;
-        margin: 0px;
+        max-width: 400px;
+        margin: auto 0;
         text-align: center;
     }
 
@@ -104,15 +108,6 @@ button{
 
     .logo img{
         width: 150px;
-    }
-
-    .image img{
-        margin: 10px 30px;
-        width: 320px;
-    }
-
-    .text{
-        padding: 0px 40px;
     }
 
     h1{
